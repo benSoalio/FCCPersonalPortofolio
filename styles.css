@@ -38,7 +38,7 @@ body {
   font-size: 1.5rem;
 }
 
-#nav-bar {
+#navbar {
  width: 50%
 }
 
@@ -113,4 +113,42 @@ a {
   width: 30vw;
   height: 30vh;
   padding: 10px
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(243, 186, 24);
+  color: rgb(18, 17, 62);
+}
+
+#contact h2 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+#contact p {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1752f3;
+  color: rgb(243, 186, 24);
+  height: 10vh;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+   .section {
+  height: 100vh;
+  width: 100%;
+  }
 }
